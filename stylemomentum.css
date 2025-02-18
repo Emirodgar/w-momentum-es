@@ -3,8 +3,14 @@
 -----------------------------------------------------------------*/
 
 :root {
+	
+	--cnvs-themecolor: #009FA2;
+    --cnvs-themecolor-rgb: 0, 159, 162;
+	
+	/*
 	--cnvs-themecolor: #0F6458;
 	--cnvs-themecolor-rgb: 15, 99, 88;
+	*/
 
 	--cnvs-color-2: #FFCD8C;
 	--cnvs-body-font: 'IBM Plex Sans', sans-serif;
