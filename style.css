@@ -33559,3 +33559,9 @@ body.dark {
   background-color: rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
+
+.rounded-image {
+  border-radius: 50%;
+  object-fit: cover; /* Para que la imagen se recorte bien dentro del círculo */
+  display: block;
+}
