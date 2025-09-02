@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="es">
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta http-equiv="x-ua-compatible" content="IE=edge">
 	<meta name="author" content="SemiColonWeb">
-	<meta name="description" content="Create Covid Care &amp; Medical Clinic Websites with Canvas Template. Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
+		<meta name="description" content="">
+	<link rel="shortcut icon" href="images/favicon.png">
 
 	<!-- Font Imports -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +31,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Momentum Salamanca</title>
+	<title>Nosotros - Momentum Salamanca</title>
 
 </head>
 
@@ -40,13 +41,6 @@
 	============================================= -->
 	<div id="wrapper">
 
-		<!-- Top Bar
-		============================================= -->
-		<div style="display:none;" id="top-bar" class="py-4 text-center bg-color-2">
-			<div class="container">
-				<h4 class="mb-0 h6 fst-normal">Franja para dejar mensajes que nos interese destacar <a href="#" class="color fw-bold border-bottom border-width-2 border-color font-secondary ms-2">Leer noticia.</a><i class="fa-solid fa-chevron-right icon-stacked text-smaller color"></i></h4>
-			</div>
-		</div><!-- #top-bar end -->
 
 		<!-- Header
 		============================================= -->
@@ -59,7 +53,7 @@
 						============================================= -->
 						<div id="logo">
 							<a href="demo-covid-care.html">
-								<img class="logo-default" srcset="logos/logo.jpg, logos/logo.jpg 2x" src="logos/logo.jpg" alt="Canvas Logo">
+								<img class="logo-default" srcset="logos/logo.jpg, logos/logo.jpg 2x" src="logos/logo.jpg" alt="Momentum">
 							</a>
 						</div><!-- #logo end -->
 
@@ -73,8 +67,8 @@
 
 						<!-- Header Buttons
 						============================================= -->
-						<div class="header-misc">
-							<a href="#" class="button rounded-pill ls-0 fw-medium my-0 ms-2 d-none d-sm-flex">Prueba gratis</a>
+						<div id="goFooter" class="header-misc">
+							<a class="button rounded-pill ls-0 fw-medium my-0 ms-2 d-none d-sm-flex">Prueba sin compromiso</a>
 						</div>
 
 						<!-- Primary Navigation
@@ -82,10 +76,10 @@
 						<nav class="primary-menu">
 
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="demo-covid-care.html"><div>Inicio</div></a></li>
+								<!--<li class="menu-item current"><a class="menu-link" href="demo-covid-care.html"><div>Inicio</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="demo-covid-care-about.html"><div>Nosotros</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="demo-covid-care-services.html"><div>Servicios</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-covid-care-contact.html"><div>Contacto</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-covid-care-contact.html"><div>Contacto</div></a></li>-->
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -164,7 +158,7 @@
 							</div>-->
 
 
-							<a href="#" class="color fw-bold border-bottom border-width-2 border-color me-2 text-capitalize">Conoce más de nuestro equipo</a><i class="fa-solid fa-chevron-right icon-stacked text-smaller color"></i>
+							<a href="/entrena-con-nosotros" class="color fw-bold border-bottom border-width-2 border-color me-2 text-capitalize">Conoce cómo trabajamos</a><i class="fa-solid fa-chevron-right icon-stacked text-smaller color"></i>
 						</div>
 						<div class="col-lg-6">
 							<img src="images/entrenamientos.jpg" alt="Phone call" class="rounded">
@@ -292,6 +286,7 @@
 
 									<div class="col-12 mt-5 text-white-50 text-smaller">
 										Marca registrada <br>&copy; 2025 Momentum<br>
+										<a href="https://emirodgar.com">SEO</a>
 									</div>
 								</div>
 
@@ -313,6 +308,13 @@
 	============================================= -->
 	<script src="js/plugins.min.js"></script>
 	<script src="js/functions.bundle.js"></script>
-
+		<script src="js/functions.bundle.js"></script>
+		<script>
+	  document.getElementById("goFooter").addEventListener("click", function() {
+		document.getElementById("footer").scrollIntoView({
+		  behavior: "smooth"  
+		});
+	  });
+	</script>
 </body>
 </html>
